@@ -101,9 +101,13 @@ Copy `backend/.env.example` to `backend/.env`. Never commit secrets. Configure `
 
 ## Screenshots
 
-![Dashboard overview](docs/screenshots/dashboard-overview.png)
-![Review feed](docs/screenshots/review-feed.png)
-![Analytics](docs/screenshots/analytics.png)
+![Screenshot 1](docs/screenshots/screenshot1.png)
+![Screenshot 2](docs/screenshots/screenshot2.png)
+![Screenshot 3](docs/screenshots/screenshot3.png)
+![Screenshot 4](docs/screenshots/screenshot4.png)
+![Screenshot 5](docs/screenshots/screenshot5.png)
+![Screenshot 6](docs/screenshots/screenshot6.png)
+![Screenshot 7](docs/screenshots/screenshot7.png)
 
 ## Limitations
 Live Booking.com HTML and access availability vary; collection is not guaranteed. Public pages may require browser consent or block automation. The scraper transparently reports failures rather than fabricating success. Transformer models are optional and the deterministic fallback is always available.
