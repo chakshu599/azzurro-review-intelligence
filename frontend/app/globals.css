@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--navy:#0b1f33;--gold:#c7a96b;--ink:#172b3a}*{box-sizing:border-box}body{margin:0;background:#f3f6f8;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}.card{background:white;border:1px solid #e5eaee;border-radius:14px;box-shadow:0 4px 18px rgba(11,31,51,.035)}.scrollbar-none::-webkit-scrollbar{display:none}.gold-line{border-top:2px solid var(--gold)}
