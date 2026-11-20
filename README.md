@@ -110,10 +110,8 @@ Copy `backend/.env.example` to `backend/.env`. Never commit secrets. Configure `
 ![Screenshot 7](docs/screenshots/screenshot7.png)
 
 ## Limitations
-Live Booking.com HTML and access availability vary; collection is not guaranteed. Public pages may require browser consent or block automation. The scraper transparently reports failures rather than fabricating success. Transformer models are optional and the deterministic fallback is always available.
-
-## Limitations
 - Demo data is synthetic and labelled "Synthetic demo data"; not genuine Booking.com reviews.
 - Live Booking.com collection is opt-in and requires Playwright browser dependencies; CAPTCHA/anti-bot blocks are recorded, not bypassed.
 - SQLite is used for local/demo; production should use PostgreSQL via DATABASE_URL.
 - Analytics week is Monday-Sunday in Australia/Sydney.
+- Live Booking.com HTML and access availability vary; collection is not guaranteed. Public pages may require browser consent or block automation. The scraper transparently reports failures rather than fabricating success. Transformer models are optional and the deterministic fallback is always available.
